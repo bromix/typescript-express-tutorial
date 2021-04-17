@@ -6,6 +6,10 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+app.get("/Hello", (req, res) => {
+  res.send("World!");
+});
+
 /*
 PORT could be set via environment variable (e.g. by Google Cloud
 or some other could service). Fallback to your desired PORT.
